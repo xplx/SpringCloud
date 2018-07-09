@@ -45,6 +45,7 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--spring-boot-starter-actuator是一套监控的功能-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
