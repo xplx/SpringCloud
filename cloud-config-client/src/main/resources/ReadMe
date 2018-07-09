@@ -1,0 +1,2 @@
+1、Could not resolve placeholder 'neo.hello' in value "${neo.hello}" client端启动报错，找不到配置文件？
+client端的pom文件中不能有spring-cloud-config-server这个jar，把这个去掉就好了。
