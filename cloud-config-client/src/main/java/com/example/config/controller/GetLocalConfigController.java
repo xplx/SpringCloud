@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
  * @create 2018-07-20 15:38
  **/
 @RestController
-public class GetConfigController {
+public class GetLocalConfigController {
 
-    @Value("${foo}")
+    //@Value("${foo}")
     String foo;
     @RequestMapping(value = "/foo")
     public String hi(){
