@@ -24,6 +24,8 @@
 		<module>../cloud-consumer-ribbon</module>
 		<module>../cloud-producer-tomcat</module>
 		<module>../cloud-zipkin</module>
+		<module>../cloud-admin</module>
+		<module>../cloud-turbine-service</module>
 	</modules>
 	<build>
 		<plugins>

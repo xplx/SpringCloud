@@ -1,0 +1,28 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+server:
+  port: 9003
+spring:
+  application:
+    name: cloud-consumer
+
+logging:
+  file: "logs/cloud-consumer.log"
+
+endpoints:
+  health:
+    sensitive: false
+    enabled: true
+  actuator:
+    enabled: true
+    sensitive: false
+  beans:
+    sensitive: false
+    enabled: true
+
+
+management:
+  security:
+    enabled: false

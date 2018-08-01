@@ -24,10 +24,10 @@ public class ConsumerController {
     //获取配置属性
     @Value("${my.name}")
     private String myName;
-
-    @HystrixCommand(fallbackMethod = "hiError") //声明断路点HystrixCommand
+    //声明断路点HystrixCommand
+    @HystrixCommand(fallbackMethod = "hiError")
     @RequestMapping("/hello/{name}")
-    public String index(@PathVariable("name") String name) {
+    public String hello(@PathVariable("name") String name) {
 
         return HelloRemote.hello(name + " my name:" + myName);
     }
