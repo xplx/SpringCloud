@@ -27,4 +27,4 @@ public class RibbonServer {
     public String hiError(String name) {
         return "hi, name" + name + "sorry, error";
     }
-}   
+}

@@ -951,3 +951,1071 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2018-07-26 18:17:18.105  INFO [cloud-consumer,,,] 11536 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2018-07-26 18:22:18.106  INFO [cloud-consumer,,,] 11536 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2018-07-26 18:27:18.108  INFO [cloud-consumer,,,] 11536 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-30 10:50:18.115  INFO [cloud-consumer,,,] 16968 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2807bdeb: startup date [Thu Aug 30 10:50:18 CST 2018]; root of context hierarchy
+2018-08-30 10:50:18.324  INFO [cloud-consumer,,,] 16968 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-30 10:50:18.360  INFO [cloud-consumer,,,] 16968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2cf37418] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-30 10:50:18.726  INFO [cloud-consumer,,,] 16968 --- [main] com.example.comsumer.Consumer            : No active profile set, falling back to default profiles: default
+2018-08-30 10:50:18.743  INFO [cloud-consumer,,,] 16968 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68e62ca4: startup date [Thu Aug 30 10:50:18 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2807bdeb
+2018-08-30 10:50:19.491  INFO [cloud-consumer,,,] 16968 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cf5c2e9c-0d74-3087-ba5e-79aac2bc029c
+2018-08-30 10:50:19.503  INFO [cloud-consumer,,,] 16968 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-30 10:50:19.520  INFO [cloud-consumer,,,] 16968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.example.comsumer.server.HelloRemote' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-30 10:50:19.589  INFO [cloud-consumer,,,] 16968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$4e1b0ede] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-30 10:50:19.645  INFO [cloud-consumer,,,] 16968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$133eb74d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-30 10:50:19.773  INFO [cloud-consumer,,,] 16968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-30 10:50:19.790  INFO [cloud-consumer,,,] 16968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$4306175c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-30 10:50:19.807  INFO [cloud-consumer,,,] 16968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2cf37418] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-30 10:50:19.825  INFO [cloud-consumer,,,] 16968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$506b49e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-30 10:50:19.842  INFO [cloud-consumer,,,] 16968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$f8bd1d3a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-30 10:50:20.266  INFO [cloud-consumer,,,] 16968 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9003 (http)
+2018-08-30 10:50:20.272  INFO [cloud-consumer,,,] 16968 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-08-30 10:50:20.273  INFO [cloud-consumer,,,] 16968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-08-30 10:50:20.348  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-30 10:50:20.349  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1606 ms
+2018-08-30 10:50:21.383  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-08-30 10:50:21.384  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-30 10:50:21.384  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2018-08-30 10:50:21.384  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-30 10:50:21.384  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-30 10:50:21.384  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-30 10:50:21.384  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-08-30 10:50:21.384  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-08-30 10:50:21.384  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'proxyStreamServlet' to [/proxy.stream]
+2018-08-30 10:50:21.385  INFO [cloud-consumer,,,] 16968 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-30 10:50:21.504  INFO [cloud-consumer,,,] 16968 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e9bf744: startup date [Thu Aug 30 10:50:21 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68e62ca4
+2018-08-30 10:50:21.516  INFO [cloud-consumer,,,] 16968 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-30 10:50:22.771  INFO [cloud-consumer,,,] 16968 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68e62ca4: startup date [Thu Aug 30 10:50:18 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2807bdeb] and template loader path [classpath:/templates/]
+2018-08-30 10:50:22.772  INFO [cloud-consumer,,,] 16968 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-30 10:50:23.140  WARN [cloud-consumer,,,] 16968 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-30 10:50:23.141  INFO [cloud-consumer,,,] 16968 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-30 10:50:23.144  INFO [cloud-consumer,,,] 16968 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@c29b0dc
+2018-08-30 10:50:23.404  INFO [cloud-consumer,,,] 16968 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68e62ca4: startup date [Thu Aug 30 10:50:18 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2807bdeb
+2018-08-30 10:50:23.582  INFO [cloud-consumer,,,] 16968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/{name}]}" onto public java.lang.String com.example.comsumer.controller.feignClient.ConsumerController.hello(java.lang.String)
+2018-08-30 10:50:23.583  INFO [cloud-consumer,,,] 16968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getConfig]}" onto public java.lang.String com.example.comsumer.controller.getConfig.GetConfigController.getConfigBean()
+2018-08-30 10:50:23.584  INFO [cloud-consumer,,,] 16968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getMyTestBean]}" onto public java.lang.String com.example.comsumer.controller.getConfig.GetMyTestBeanController.getMyTestBean()
+2018-08-30 10:50:23.584  INFO [cloud-consumer,,,] 16968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hystrix/{path}]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2018-08-30 10:50:23.584  INFO [cloud-consumer,,,] 16968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hystrix]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.home(org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2018-08-30 10:50:23.586  INFO [cloud-consumer,,,] 16968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-30 10:50:23.586  INFO [cloud-consumer,,,] 16968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-30 10:50:23.745  INFO [cloud-consumer,,,] 16968 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-30 10:50:23.745  INFO [cloud-consumer,,,] 16968 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-30 10:50:23.842  INFO [cloud-consumer,,,] 16968 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-30 10:50:25.016  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.016  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.018  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-08-30 10:50:25.018  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-08-30 10:50:25.018  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-08-30 10:50:25.018  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-08-30 10:50:25.018  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.019  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.019  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.019  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/hystrix.stream/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.cloud.netflix.endpoint.ServletWrappingEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-30 10:50:25.020  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-08-30 10:50:25.022  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.022  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-08-30 10:50:25.023  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-08-30 10:50:25.024  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-30 10:50:25.024  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.025  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-30 10:50:25.025  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.025  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-08-30 10:50:25.026  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-08-30 10:50:25.026  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.026  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2018-08-30 10:50:25.026  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2018-08-30 10:50:25.027  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.027  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-30 10:50:25.027  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.028  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2018-08-30 10:50:25.028  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-30 10:50:25.028  INFO [cloud-consumer,,,] 16968 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-30 10:50:25.822  WARN [cloud-consumer,,,] 16968 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-30 10:50:25.822  INFO [cloud-consumer,,,] 16968 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-30 10:50:26.025  INFO [cloud-consumer,,,] 16968 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 
+2018-08-30 10:50:26.263  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-30 10:50:26.270  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-08-30 10:50:26.271  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-08-30 10:50:26.272  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-08-30 10:50:26.272  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-08-30 10:50:26.273  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2018-08-30 10:50:26.274  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-08-30 10:50:26.276  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-08-30 10:50:26.285  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-08-30 10:50:26.292  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2018-08-30 10:50:26.297  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-08-30 10:50:26.305  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=68e62ca4,type=ConfigurationPropertiesRebinder]
+2018-08-30 10:50:26.308  INFO [cloud-consumer,,,] 16968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-08-30 10:50:26.497  INFO [cloud-consumer,,,] 16968 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-08-30 10:50:26.502  INFO [cloud-consumer,,,] 16968 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-08-30 10:50:26.536  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-08-30 10:50:26.790  INFO [cloud-consumer,,,] 16968 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-08-30 10:50:26.791  INFO [cloud-consumer,,,] 16968 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-08-30 10:50:26.857  INFO [cloud-consumer,,,] 16968 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-08-30 10:50:26.858  INFO [cloud-consumer,,,] 16968 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-08-30 10:50:27.011  INFO [cloud-consumer,,,] 16968 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-30 10:50:27.105  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-08-30 10:50:27.105  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-08-30 10:50:27.105  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-08-30 10:50:27.105  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-08-30 10:50:27.105  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-08-30 10:50:27.105  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-08-30 10:50:27.105  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-08-30 10:50:27.217  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-08-30 10:50:27.218  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-08-30 10:50:27.220  INFO [cloud-consumer,,,] 16968 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-08-30 10:50:27.223  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1535597427222 with initial instances count: 3
+2018-08-30 10:50:27.333  INFO [cloud-consumer,,,] 16968 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application cloud-consumer with eureka with status UP
+2018-08-30 10:50:27.335  INFO [cloud-consumer,,,] 16968 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1535597427335, current=UP, previous=STARTING]
+2018-08-30 10:50:27.336  INFO [cloud-consumer,,,] 16968 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLOUD-CONSUMER/DESKTOP-6B5D8GA:cloud-consumer:9003: registering service...
+2018-08-30 10:50:27.364  INFO [cloud-consumer,,,] 16968 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLOUD-CONSUMER/DESKTOP-6B5D8GA:cloud-consumer:9003 - registration status: 204
+2018-08-30 10:50:27.373  INFO [cloud-consumer,,,] 16968 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-08-30 10:50:27.376  INFO [cloud-consumer,,,] 16968 --- [main] ration$HystrixMetricsPollerConfiguration : Starting poller
+2018-08-30 10:50:27.414  INFO [cloud-consumer,,,] 16968 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9003 (http)
+2018-08-30 10:50:27.415  INFO [cloud-consumer,,,] 16968 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9003
+2018-08-30 10:50:27.418  INFO [cloud-consumer,,,] 16968 --- [main] com.example.comsumer.Consumer            : Started Consumer in 9.872 seconds (JVM running for 10.546)
+2018-08-30 10:50:46.944  INFO [cloud-consumer,,,] 16968 --- [http-nio-9003-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-30 10:50:46.944  INFO [cloud-consumer,,,] 16968 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-30 10:50:46.995  INFO [cloud-consumer,,,] 16968 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+2018-08-30 10:50:57.936  WARN [cloud-consumer,,,] 16968 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@4eb3974b)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 4 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-30 10:50:59.941  WARN [cloud-consumer,,,] 16968 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@4eb3974b)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 12 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-30 10:55:27.108  INFO [cloud-consumer,,,] 16968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-30 11:00:27.110  INFO [cloud-consumer,,,] 16968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-30 11:05:27.111  INFO [cloud-consumer,,,] 16968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-30 11:10:27.112  INFO [cloud-consumer,,,] 16968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-30 11:15:27.113  INFO [cloud-consumer,,,] 16968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-30 11:20:27.115  INFO [cloud-consumer,,,] 16968 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 14:51:25.919  INFO [cloud-consumer,,,] 16292 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@acdb094: startup date [Fri Aug 31 14:51:25 CST 2018]; root of context hierarchy
+2018-08-31 14:51:26.124  INFO [cloud-consumer,,,] 16292 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-31 14:51:26.159  INFO [cloud-consumer,,,] 16292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d1773aff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 14:51:26.519  INFO [cloud-consumer,,,] 16292 --- [main] com.example.comsumer.Consumer            : No active profile set, falling back to default profiles: default
+2018-08-31 14:51:26.537  INFO [cloud-consumer,,,] 16292 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ff6077: startup date [Fri Aug 31 14:51:26 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@acdb094
+2018-08-31 14:51:27.326  INFO [cloud-consumer,,,] 16292 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cf5c2e9c-0d74-3087-ba5e-79aac2bc029c
+2018-08-31 14:51:27.338  INFO [cloud-consumer,,,] 16292 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-31 14:51:27.354  INFO [cloud-consumer,,,] 16292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.example.comsumer.server.HelloRemote' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 14:51:27.414  INFO [cloud-consumer,,,] 16292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$f29ed5c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 14:51:27.483  INFO [cloud-consumer,,,] 16292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$b7c27e34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 14:51:27.644  INFO [cloud-consumer,,,] 16292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 14:51:27.663  INFO [cloud-consumer,,,] 16292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$e789de43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 14:51:27.681  INFO [cloud-consumer,,,] 16292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d1773aff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 14:51:27.699  INFO [cloud-consumer,,,] 16292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$f4ef10c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 14:51:27.716  INFO [cloud-consumer,,,] 16292 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$9d40e421] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-31 14:51:28.156  INFO [cloud-consumer,,,] 16292 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9003 (http)
+2018-08-31 14:51:28.162  INFO [cloud-consumer,,,] 16292 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-08-31 14:51:28.163  INFO [cloud-consumer,,,] 16292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-08-31 14:51:28.239  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-31 14:51:28.239  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1702 ms
+2018-08-31 14:51:29.320  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-08-31 14:51:29.320  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-31 14:51:29.320  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2018-08-31 14:51:29.320  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-31 14:51:29.320  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-31 14:51:29.321  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-31 14:51:29.321  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-08-31 14:51:29.321  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-08-31 14:51:29.321  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'proxyStreamServlet' to [/proxy.stream]
+2018-08-31 14:51:29.322  INFO [cloud-consumer,,,] 16292 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-31 14:51:29.438  INFO [cloud-consumer,,,] 16292 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28989415: startup date [Fri Aug 31 14:51:29 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ff6077
+2018-08-31 14:51:29.449  INFO [cloud-consumer,,,] 16292 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-31 14:51:30.717  INFO [cloud-consumer,,,] 16292 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ff6077: startup date [Fri Aug 31 14:51:26 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@acdb094] and template loader path [classpath:/templates/]
+2018-08-31 14:51:30.718  INFO [cloud-consumer,,,] 16292 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-31 14:51:31.067  WARN [cloud-consumer,,,] 16292 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-31 14:51:31.067  INFO [cloud-consumer,,,] 16292 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-31 14:51:31.071  INFO [cloud-consumer,,,] 16292 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@47772462
+2018-08-31 14:51:31.342  INFO [cloud-consumer,,,] 16292 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ff6077: startup date [Fri Aug 31 14:51:26 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@acdb094
+2018-08-31 14:51:31.513  INFO [cloud-consumer,,,] 16292 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/{name}]}" onto public java.lang.String com.example.comsumer.controller.feignClient.ConsumerController.hello(java.lang.String)
+2018-08-31 14:51:31.513  INFO [cloud-consumer,,,] 16292 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getConfig]}" onto public java.lang.String com.example.comsumer.controller.getConfig.GetConfigController.getConfigBean()
+2018-08-31 14:51:31.514  INFO [cloud-consumer,,,] 16292 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getMyTestBean]}" onto public java.lang.String com.example.comsumer.controller.getConfig.GetMyTestBeanController.getMyTestBean()
+2018-08-31 14:51:31.514  INFO [cloud-consumer,,,] 16292 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hystrix/{path}]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2018-08-31 14:51:31.514  INFO [cloud-consumer,,,] 16292 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hystrix]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.home(org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2018-08-31 14:51:31.515  INFO [cloud-consumer,,,] 16292 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-31 14:51:31.516  INFO [cloud-consumer,,,] 16292 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-31 14:51:31.666  INFO [cloud-consumer,,,] 16292 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 14:51:31.666  INFO [cloud-consumer,,,] 16292 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 14:51:31.756  INFO [cloud-consumer,,,] 16292 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-31 14:51:32.940  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.941  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.942  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-08-31 14:51:32.942  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.943  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2018-08-31 14:51:32.943  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.944  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-08-31 14:51:32.945  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.945  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-08-31 14:51:32.945  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-08-31 14:51:32.947  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-08-31 14:51:32.947  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-31 14:51:32.947  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.949  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-31 14:51:32.949  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.950  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-31 14:51:32.950  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.950  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.951  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/hystrix.stream/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.cloud.netflix.endpoint.ServletWrappingEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-31 14:51:32.951  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.951  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-08-31 14:51:32.951  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.952  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-08-31 14:51:32.952  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-31 14:51:32.953  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-08-31 14:51:32.953  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-08-31 14:51:32.954  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-31 14:51:32.954  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2018-08-31 14:51:32.954  INFO [cloud-consumer,,,] 16292 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2018-08-31 14:51:33.735  WARN [cloud-consumer,,,] 16292 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-08-31 14:51:33.735  INFO [cloud-consumer,,,] 16292 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-31 14:51:33.941  INFO [cloud-consumer,,,] 16292 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 
+2018-08-31 14:51:34.200  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-31 14:51:34.207  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-08-31 14:51:34.209  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-08-31 14:51:34.210  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-08-31 14:51:34.210  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-08-31 14:51:34.210  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2018-08-31 14:51:34.212  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-08-31 14:51:34.214  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-08-31 14:51:34.224  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-08-31 14:51:34.232  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2018-08-31 14:51:34.238  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-08-31 14:51:34.247  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=ff6077,type=ConfigurationPropertiesRebinder]
+2018-08-31 14:51:34.251  INFO [cloud-consumer,,,] 16292 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-08-31 14:51:34.466  INFO [cloud-consumer,,,] 16292 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-08-31 14:51:34.472  INFO [cloud-consumer,,,] 16292 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-08-31 14:51:34.504  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-08-31 14:51:34.763  INFO [cloud-consumer,,,] 16292 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-08-31 14:51:34.763  INFO [cloud-consumer,,,] 16292 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-08-31 14:51:34.831  INFO [cloud-consumer,,,] 16292 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-08-31 14:51:34.831  INFO [cloud-consumer,,,] 16292 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-08-31 14:51:34.984  INFO [cloud-consumer,,,] 16292 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 14:51:35.075  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-08-31 14:51:35.075  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-08-31 14:51:35.075  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-08-31 14:51:35.075  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-08-31 14:51:35.075  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-08-31 14:51:35.075  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-08-31 14:51:35.075  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-08-31 14:51:35.189  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-08-31 14:51:35.189  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-08-31 14:51:35.191  INFO [cloud-consumer,,,] 16292 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-08-31 14:51:35.194  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1535698295194 with initial instances count: 3
+2018-08-31 14:51:35.312  INFO [cloud-consumer,,,] 16292 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application cloud-consumer with eureka with status UP
+2018-08-31 14:51:35.312  INFO [cloud-consumer,,,] 16292 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1535698295312, current=UP, previous=STARTING]
+2018-08-31 14:51:35.314  INFO [cloud-consumer,,,] 16292 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLOUD-CONSUMER/DESKTOP-6B5D8GA:cloud-consumer:9003: registering service...
+2018-08-31 14:51:35.342  INFO [cloud-consumer,,,] 16292 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLOUD-CONSUMER/DESKTOP-6B5D8GA:cloud-consumer:9003 - registration status: 204
+2018-08-31 14:51:35.352  INFO [cloud-consumer,,,] 16292 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-08-31 14:51:35.355  INFO [cloud-consumer,,,] 16292 --- [main] ration$HystrixMetricsPollerConfiguration : Starting poller
+2018-08-31 14:51:35.397  INFO [cloud-consumer,,,] 16292 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9003 (http)
+2018-08-31 14:51:35.397  INFO [cloud-consumer,,,] 16292 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9003
+2018-08-31 14:51:35.402  INFO [cloud-consumer,,,] 16292 --- [main] com.example.comsumer.Consumer            : Started Consumer in 10.108 seconds (JVM running for 10.802)
+2018-08-31 14:52:10.087  INFO [cloud-consumer,,,] 16292 --- [http-nio-9003-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-31 14:52:10.087  INFO [cloud-consumer,,,] 16292 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-31 14:52:10.126  INFO [cloud-consumer,,,] 16292 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2018-08-31 14:52:11.819  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:52:17.827  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:52:19.835  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:52:20.893  INFO [cloud-consumer,4fcde4a9852aaa7a,4fcde4a9852aaa7a,true] 16292 --- [hystrix-cloud-producer-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@292cbed7: startup date [Fri Aug 31 14:52:20 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ff6077
+2018-08-31 14:52:20.922  INFO [cloud-consumer,4fcde4a9852aaa7a,4fcde4a9852aaa7a,true] 16292 --- [hystrix-cloud-producer-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-31 14:52:21.036  INFO [cloud-consumer,4fcde4a9852aaa7a,4fcde4a9852aaa7a,true] 16292 --- [hystrix-cloud-producer-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: cloud-producer.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-08-31 14:52:21.055  INFO [cloud-consumer,4fcde4a9852aaa7a,4fcde4a9852aaa7a,true] 16292 --- [hystrix-cloud-producer-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-cloud-producer
+2018-08-31 14:52:21.071  INFO [cloud-consumer,4fcde4a9852aaa7a,4fcde4a9852aaa7a,true] 16292 --- [hystrix-cloud-producer-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: cloud-producer instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cloud-producer,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-08-31 14:52:21.075  INFO [cloud-consumer,4fcde4a9852aaa7a,4fcde4a9852aaa7a,true] 16292 --- [hystrix-cloud-producer-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2018-08-31 14:52:21.092  INFO [cloud-consumer,4fcde4a9852aaa7a,4fcde4a9852aaa7a,true] 16292 --- [hystrix-cloud-producer-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: cloud-producer.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-08-31 14:52:21.093  INFO [cloud-consumer,4fcde4a9852aaa7a,4fcde4a9852aaa7a,true] 16292 --- [hystrix-cloud-producer-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client cloud-producer initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cloud-producer,current list of Servers=[10.10.11.64:9002, DESKTOP-6B5D8GA:9001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:2;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-6B5D8GA:9001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+, [Server:10.10.11.64:9002;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@610c0186
+2018-08-31 14:52:22.078  INFO [cloud-consumer,,,] 16292 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: cloud-producer.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-08-31 14:52:22.846  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:52:25.855  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:52:27.861  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 12 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:52:29.864  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 18 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:52:31.872  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 19 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:52:33.878  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 19 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:52:35.881  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 16 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 14:56:35.077  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:01:35.080  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:06:35.080  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:11:35.082  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:16:35.084  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:21:35.086  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:26:35.087  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:31:35.088  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:36:35.090  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:41:35.092  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:46:35.093  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:51:35.095  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 15:56:35.097  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:01:35.099  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:06:35.100  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:11:35.103  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:16:35.104  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:21:35.105  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:25:39.472  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 16:25:41.486  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 12 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 16:25:43.536  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 41 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 16:25:45.830  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 73 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 16:25:47.937  WARN [cloud-consumer,,,] 16292 --- [AsyncReporter(org.springframework.cloud.sleuth.zipkin.RestTemplateSender@14ebc391)] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 56 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9007/api/v1/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.post(RestTemplateSender.java:73) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin.RestTemplateSender.sendSpans(RestTemplateSender.java:46) ~[spring-cloud-sleuth-zipkin-1.2.1.RELEASE.jar:1.2.1.RELEASE]
+	at zipkin.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:228) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder.lambda$build$0(AsyncReporter.java:153) [zipkin-reporter-0.7.0.jar:na]
+	at zipkin.reporter.AsyncReporter$Builder$$Lambda$1.run(Unknown Source) [zipkin-reporter-0.7.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[na:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050) ~[na:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[na:1.8.0_181]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 8 common frames omitted
+
+2018-08-31 16:26:35.106  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:31:35.109  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:36:35.111  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:41:35.112  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:46:35.114  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:51:35.117  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 16:56:35.117  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 17:01:35.118  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 17:06:35.120  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 17:11:35.122  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 17:16:35.123  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 17:21:35.125  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 17:26:35.126  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-08-31 17:31:35.128  INFO [cloud-consumer,,,] 16292 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-03 13:53:05.776  INFO [cloud-consumer,,,] 1976 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ebb6851: startup date [Mon Sep 03 13:53:05 CST 2018]; root of context hierarchy
+2018-09-03 13:53:05.967  INFO [cloud-consumer,,,] 1976 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-03 13:53:06.002  INFO [cloud-consumer,,,] 1976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3b104e01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-03 13:53:06.351  INFO [cloud-consumer,,,] 1976 --- [main] com.example.comsumer.Consumer            : No active profile set, falling back to default profiles: default
+2018-09-03 13:53:06.366  INFO [cloud-consumer,,,] 1976 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25d958c6: startup date [Mon Sep 03 13:53:06 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ebb6851
+2018-09-03 13:53:07.098  INFO [cloud-consumer,,,] 1976 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cf5c2e9c-0d74-3087-ba5e-79aac2bc029c
+2018-09-03 13:53:07.108  INFO [cloud-consumer,,,] 1976 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-03 13:53:07.124  INFO [cloud-consumer,,,] 1976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.example.comsumer.server.HelloRemote' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-03 13:53:07.183  INFO [cloud-consumer,,,] 1976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$5c37e8c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-03 13:53:07.254  INFO [cloud-consumer,,,] 1976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$215b9136] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-03 13:53:07.378  INFO [cloud-consumer,,,] 1976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-03 13:53:07.396  INFO [cloud-consumer,,,] 1976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$5122f145] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-03 13:53:07.412  INFO [cloud-consumer,,,] 1976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3b104e01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-03 13:53:07.431  INFO [cloud-consumer,,,] 1976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$5e8823ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-03 13:53:07.447  INFO [cloud-consumer,,,] 1976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$6d9f723] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-03 13:53:07.882  INFO [cloud-consumer,,,] 1976 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9003 (http)
+2018-09-03 13:53:07.888  INFO [cloud-consumer,,,] 1976 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-09-03 13:53:07.889  INFO [cloud-consumer,,,] 1976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-09-03 13:53:07.964  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-03 13:53:07.964  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1598 ms
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'proxyStreamServlet' to [/proxy.stream]
+2018-09-03 13:53:08.979  INFO [cloud-consumer,,,] 1976 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-03 13:53:09.099  INFO [cloud-consumer,,,] 1976 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@10a907ec: startup date [Mon Sep 03 13:53:09 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25d958c6
+2018-09-03 13:53:09.109  INFO [cloud-consumer,,,] 1976 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-03 13:53:10.336  INFO [cloud-consumer,,,] 1976 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25d958c6: startup date [Mon Sep 03 13:53:06 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ebb6851] and template loader path [classpath:/templates/]
+2018-09-03 13:53:10.346  INFO [cloud-consumer,,,] 1976 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-09-03 13:53:10.687  WARN [cloud-consumer,,,] 1976 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-03 13:53:10.687  INFO [cloud-consumer,,,] 1976 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-03 13:53:10.697  INFO [cloud-consumer,,,] 1976 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@21ce2e4d
+2018-09-03 13:53:10.963  INFO [cloud-consumer,,,] 1976 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25d958c6: startup date [Mon Sep 03 13:53:06 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ebb6851
+2018-09-03 13:53:11.138  INFO [cloud-consumer,,,] 1976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/{name}]}" onto public java.lang.String com.example.comsumer.controller.feignClient.ConsumerController.hello(java.lang.String)
+2018-09-03 13:53:11.139  INFO [cloud-consumer,,,] 1976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getConfig]}" onto public java.lang.String com.example.comsumer.controller.getConfig.GetConfigController.getConfigBean()
+2018-09-03 13:53:11.140  INFO [cloud-consumer,,,] 1976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getMyTestBean]}" onto public java.lang.String com.example.comsumer.controller.getConfig.GetMyTestBeanController.getMyTestBean()
+2018-09-03 13:53:11.140  INFO [cloud-consumer,,,] 1976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hystrix/{path}]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2018-09-03 13:53:11.140  INFO [cloud-consumer,,,] 1976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hystrix]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.home(org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2018-09-03 13:53:11.141  INFO [cloud-consumer,,,] 1976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-03 13:53:11.142  INFO [cloud-consumer,,,] 1976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-03 13:53:11.290  INFO [cloud-consumer,,,] 1976 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-03 13:53:11.290  INFO [cloud-consumer,,,] 1976 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-03 13:53:11.380  INFO [cloud-consumer,,,] 1976 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-03 13:53:12.541  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-09-03 13:53:12.541  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-09-03 13:53:12.541  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.542  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.543  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.543  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.544  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.544  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-09-03 13:53:12.544  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.545  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/hystrix.stream/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.cloud.netflix.endpoint.ServletWrappingEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-09-03 13:53:12.545  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-09-03 13:53:12.547  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-09-03 13:53:12.548  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.549  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-09-03 13:53:12.550  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-09-03 13:53:12.551  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-09-03 13:53:12.551  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-09-03 13:53:12.551  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.551  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-09-03 13:53:12.552  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.552  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.555  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-09-03 13:53:12.556  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-09-03 13:53:12.557  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.557  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2018-09-03 13:53:12.558  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2018-09-03 13:53:12.559  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-09-03 13:53:12.561  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-09-03 13:53:12.562  INFO [cloud-consumer,,,] 1976 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2018-09-03 13:53:13.398  WARN [cloud-consumer,,,] 1976 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-03 13:53:13.398  INFO [cloud-consumer,,,] 1976 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-03 13:53:13.600  INFO [cloud-consumer,,,] 1976 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 
+2018-09-03 13:53:13.839  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-03 13:53:13.846  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-09-03 13:53:13.848  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-09-03 13:53:13.848  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-09-03 13:53:13.848  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-09-03 13:53:13.849  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2018-09-03 13:53:13.850  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-09-03 13:53:13.852  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-09-03 13:53:13.862  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-09-03 13:53:13.870  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2018-09-03 13:53:13.875  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-09-03 13:53:13.882  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=25d958c6,type=ConfigurationPropertiesRebinder]
+2018-09-03 13:53:13.886  INFO [cloud-consumer,,,] 1976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-09-03 13:53:14.069  INFO [cloud-consumer,,,] 1976 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-03 13:53:14.076  INFO [cloud-consumer,,,] 1976 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-03 13:53:14.125  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-03 13:53:14.410  INFO [cloud-consumer,,,] 1976 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-03 13:53:14.410  INFO [cloud-consumer,,,] 1976 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-03 13:53:14.495  INFO [cloud-consumer,,,] 1976 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-03 13:53:14.495  INFO [cloud-consumer,,,] 1976 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-03 13:53:14.664  INFO [cloud-consumer,,,] 1976 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-03 13:53:14.760  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-09-03 13:53:14.760  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-09-03 13:53:14.760  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-09-03 13:53:14.760  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-09-03 13:53:14.760  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-09-03 13:53:14.761  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-09-03 13:53:14.761  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-09-03 13:53:14.877  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-09-03 13:53:14.878  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-09-03 13:53:14.879  INFO [cloud-consumer,,,] 1976 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-09-03 13:53:14.881  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1535953994881 with initial instances count: 2
+2018-09-03 13:53:14.993  INFO [cloud-consumer,,,] 1976 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application cloud-consumer with eureka with status UP
+2018-09-03 13:53:14.994  INFO [cloud-consumer,,,] 1976 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1535953994994, current=UP, previous=STARTING]
+2018-09-03 13:53:14.995  INFO [cloud-consumer,,,] 1976 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLOUD-CONSUMER/DESKTOP-6B5D8GA:cloud-consumer:9003: registering service...
+2018-09-03 13:53:15.023  INFO [cloud-consumer,,,] 1976 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLOUD-CONSUMER/DESKTOP-6B5D8GA:cloud-consumer:9003 - registration status: 204
+2018-09-03 13:53:15.031  INFO [cloud-consumer,,,] 1976 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-09-03 13:53:15.034  INFO [cloud-consumer,,,] 1976 --- [main] ration$HystrixMetricsPollerConfiguration : Starting poller
+2018-09-03 13:53:15.073  INFO [cloud-consumer,,,] 1976 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9003 (http)
+2018-09-03 13:53:15.073  INFO [cloud-consumer,,,] 1976 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9003
+2018-09-03 13:53:15.077  INFO [cloud-consumer,,,] 1976 --- [main] com.example.comsumer.Consumer            : Started Consumer in 9.878 seconds (JVM running for 10.721)
+2018-09-03 13:58:14.790  INFO [cloud-consumer,,,] 1976 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-03 14:03:14.793  INFO [cloud-consumer,,,] 1976 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-09-03 14:08:14.796  INFO [cloud-consumer,,,] 1976 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

@@ -70,6 +70,19 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+			<optional>true</optional>
+		</dependency>
+
+		<!--消费端使用Feign和提供者,因为，Feign中已经依赖了Hystrix所以在maven配置上不用做任何改动。-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-feign</artifactId>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>

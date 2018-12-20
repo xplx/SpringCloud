@@ -25,7 +25,7 @@
 		<module>../cloud-producer-tomcat</module>
 		<module>../cloud-zipkin</module>
 		<module>../cloud-admin</module>
-		<module>../cloud-turbine-service</module>
+		<module>../cloud-security</module>
 	</modules>
 	<build>
 		<plugins>

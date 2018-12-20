@@ -46,6 +46,7 @@
 			<artifactId>jolokia-core</artifactId>
 		</dependency>
 
+		<!--微服务监控-->
 		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-server</artifactId>
@@ -104,6 +105,7 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
+		<!--在管理界面中需要与X-Beans 进行交互-->
 		<dependency>
 			<groupId>org.jolokia</groupId>
 			<artifactId>jolokia-core</artifactId>

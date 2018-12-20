@@ -37,7 +37,9 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--消费端使用Feign和提供者,因为，Feign中已经依赖了Hystrix所以在maven配置上不用做任何改动。-->
+		<!--消费端使用Feign和提供者,因为，
+		Feign中已经依赖了Hystrix所以在maven配置上不用做任何改动。
+		Feign结合了Ribbon负载均衡。-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
