@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * @author wuxiaopeng
  * @create 2018-07-13 14:12
@@ -21,10 +24,13 @@ public class RibbonServer {
     public String hi(String name){
         //在该类的 hi（）方法用 restTemplate 调用 eureka-client 的 API 接口 ，
         //此时 Uri 上不需要使用硬编码（例如 IP 地址 ），只需要写服务名 eureka-client 即可
+        //这里关键代码就是, restTemplate.getForObject方法会通过ribbon负载均衡机制， 自动选择一个Hello word服务，
         return restTemplate.getForObject("http://cloud-producer/hello?name=" + name, String.class);
     }
 
     public String hiError(String name) {
+        SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-dd HH:mm:ss:SSS");
+        System.out.println("end"+ sdf.format(new Date()));
         return "hi, name" + name + "sorry, error";
     }
 }

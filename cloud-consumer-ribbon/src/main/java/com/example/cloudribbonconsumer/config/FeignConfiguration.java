@@ -1,4 +1,4 @@
-package com.example.cloudribbonconsumer.util;
+package com.example.cloudribbonconsumer.config;
 
 import feign.Contract;
 import org.springframework.context.annotation.Bean;
@@ -12,6 +12,6 @@ public class FeignConfiguration {
     @Bean
     public Contract feignContract(){
         //原生的默认契约
-        return new feign.Contract.Default();
+        return new Contract.Default();
     }
 }

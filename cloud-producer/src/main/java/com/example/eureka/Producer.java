@@ -12,10 +12,10 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
  * Turbine 同时监控多个服务组件，需要加入如下两个注解：@EnableHystrixDashboard@EnableHystrix
  */
 @EnableFeignClients
-@SpringBootApplication
-@EnableDiscoveryClient
 @EnableHystrixDashboard
 @EnableHystrix
+@EnableDiscoveryClient
+@SpringBootApplication
 public class Producer  {
 
 	public static void main(String[] args) {

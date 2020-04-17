@@ -1,13 +1,11 @@
 package com.example.eureka.controller;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @author wuxiaopeng
@@ -18,6 +16,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @RequestMapping("/hello")
     public String index(@RequestParam String name) {
-        return "hello "+name+"，this is producer 2  send two message";
+        System.out.println("hello");
+        try {
+            Thread.sleep(50000,10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-dd HH:mm:ss");
+        return "hello "+name+"，this is producer 22222 send two message,time: "+ sdf.format(new Date());
     }
 }   

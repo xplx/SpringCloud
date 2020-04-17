@@ -46,10 +46,10 @@
 		</dependency>
 
 		<!--添加对zipkin链路器的支持-->
-		<dependency>
+	<!--	<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
-		</dependency>
+		</dependency>-->
 
 		<!--以下三个依赖包是hystrix-dashboard必须依赖的-->
 		<!--加上 Actuator、Hystrix 和 Hystrix Dashboard 的起步依赖-->

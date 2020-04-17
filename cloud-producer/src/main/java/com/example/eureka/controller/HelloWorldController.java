@@ -1,11 +1,13 @@
 package com.example.eureka.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @author wuxiaopeng
@@ -13,16 +15,17 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 //的意思就是controller里面的方法都以json格式输出，不用再写什么jackjson配置的了!
 @RestController
-public class HelloWorldController {
-    //忽略改接口
-    //@ApiIgnore
+public class HelloWorldController{
+    private final Logger logger = LoggerFactory.getLogger(HelloWorldController.class);
     @RequestMapping("/hello")
-    //在方法上加上＠HystrixCommand 注解 ， 该注解用于创建一个熔断器，井指明 fallbackMethod （回退方法）为“ hiError” 方法。
-    @HystrixCommand(fallbackMethod = "hiError")
     public String hello(@RequestParam String name) {
-        return "hello "+name+"，this is producer 1  send first message";
-    }
-    public String hiError(String name) {
-        return "hi,"+name+",sorry,error!";
+        logger.info("request two name is "+ name);
+        try {
+            Thread.sleep(10000,10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-dd HH:mm:ss");
+        return "hello "+name+"，this is producer 11111 send first message,time: "+ sdf.format(new Date());
     }
 }   

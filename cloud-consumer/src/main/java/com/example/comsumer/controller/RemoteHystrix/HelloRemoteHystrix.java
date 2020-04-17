@@ -2,6 +2,7 @@ package com.example.comsumer.controller.RemoteHystrix;
 
 import com.example.comsumer.server.HelloRemote;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * 创建HelloRemoteHystrix类继承与HelloRemote实现回调的方法,根据返回结果说明熔断成功。
  **/
 
-@Component
+@Service
 public class HelloRemoteHystrix implements HelloRemote {
 
     @Override

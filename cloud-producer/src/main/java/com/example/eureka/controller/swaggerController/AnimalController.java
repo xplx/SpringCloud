@@ -12,13 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @create 2018-07-12 17:54
  **/
 
-@RestController//接口注解
-@Api(value="用户接口描述",description = "接口描述")//接口简要标注，对中文的支持不太好
-@RequestMapping(value = "/swagger")//接口基本路径
+@RestController
+@Api(value="用户接口描述",description = "接口描述")
+@RequestMapping(value = "/swagger")
 public class AnimalController {
     //接口需要的参数，可以有多个，这里只写了一个，它的paramType还有path、query、body、form几种，
     @ApiImplicitParams({@ApiImplicitParam(paramType = "header", name = "Token", value = "token", dataType = "String", required = true, defaultValue = "123")})
-    //接口功能描述
     @ApiOperation(value = "获取一只狗",notes = "获取只小狗")
     //接口响应信息，这里定义了一个401，当出现401，接口返回的是自定的错误AnimalError的实例。当然可以定义多个。
     @ApiResponses(value = {@ApiResponse(code = 401, message = "请求未通过认证.", response = AnimalError.class)})
